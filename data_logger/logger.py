@@ -1,4 +1,4 @@
-# Python script to read serial data and log to CSV
+# read serial data and log to CSV
 import serial, csv, time
 ser = serial.Serial('/dev/ttyUSB0', 115200)
 with open('data_log.csv', 'a', newline='') as f:
