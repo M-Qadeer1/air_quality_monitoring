@@ -1,4 +1,4 @@
-// Sample Arduino sketch for ESP32 air quality monitor
+//  ESP32 air quality monitor
 void setup() {
   Serial.begin(115200);
   // initialize sensors here
